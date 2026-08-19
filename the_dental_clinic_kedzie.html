@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Dental Clinic - Kedzie | Your Smile Starts Here</title>
+<meta name="description" content="The Dental Clinic - Kedzie. Convenient dental care with walk-ins and Saturday appointments available. Book your visit today.">
+<style>
+:root{--navy:#123b4a;--blue:#1d8ca8;--mint:#dff7f5;--white:#fff;--ink:#17323b;--muted:#63757b;--gold:#f5b942}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:Inter,Arial,sans-serif;color:var(--ink);background:#f7fbfb;line-height:1.6}
+a{text-decoration:none;color:inherit}
+nav{display:flex;justify-content:space-between;align-items:center;padding:18px 7%;background:#fff;position:sticky;top:0;z-index:10;box-shadow:0 2px 18px #123b4a12}
+.logo{font-weight:800;font-size:21px;color:var(--navy)}.logo span{color:var(--blue)}
+.navlinks{display:flex;gap:28px;align-items:center}.navlinks a{color:#45616a;font-weight:600;font-size:14px}
+.btn{display:inline-block;background:var(--blue);color:white;padding:13px 21px;border-radius:10px;font-weight:800;border:0;cursor:pointer;box-shadow:0 8px 20px #1d8ca82b}
+.btn.alt{background:#fff;color:var(--navy);border:1px solid #cce3e5;box-shadow:none}
+.hero{padding:72px 7% 65px;background:linear-gradient(120deg,#e9fbfa 0%,#fff 58%,#e9f7ff 100%);display:grid;grid-template-columns:1.08fr .92fr;gap:55px;align-items:center}
+.badge{display:inline-block;background:#d7f3ef;color:#167486;padding:8px 13px;border-radius:999px;font-size:13px;font-weight:800;margin-bottom:18px}
+h1{font-size:clamp(42px,5.5vw,70px);line-height:1.04;letter-spacing:-2px;color:var(--navy);margin-bottom:20px}
+.hero p{font-size:18px;color:var(--muted);max-width:590px;margin-bottom:28px}
+.actions{display:flex;gap:12px;flex-wrap:wrap}.rating{margin-top:25px;display:flex;gap:12px;align-items:center}.stars{color:var(--gold);letter-spacing:2px}.rating small{color:var(--muted)}
+.visual{background:linear-gradient(145deg,#c9f1ed,#effbff);border-radius:28px;min-height:390px;display:flex;align-items:center;justify-content:center;position:relative;overflow:hidden}
+.tooth{font-size:150px;background:white;width:220px;height:220px;border-radius:50%;display:flex;align-items:center;justify-content:center;box-shadow:0 25px 60px #123b4a25;transform:rotate(5deg)}
+.float{position:absolute;background:white;padding:15px 18px;border-radius:14px;box-shadow:0 12px 35px #123b4a18;font-weight:800}.f1{top:35px;left:25px}.f2{right:25px;bottom:45px}
+section{padding:70px 7%}.center{text-align:center}.center p{max-width:650px;margin:10px auto 0;color:var(--muted)}
+h2{font-size:38px;color:var(--navy);line-height:1.15}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;margin-top:35px}
+.card{background:white;padding:28px;border-radius:20px;border:1px solid #e3eeee;box-shadow:0 12px 30px #123b4a0b}
+.icon{font-size:32px;margin-bottom:12px}.card h3{margin-bottom:8px;color:var(--navy)}.card p{color:var(--muted)}
+.highlight{background:var(--navy);color:white;border-radius:28px;padding:48px;display:grid;grid-template-columns:1fr auto;gap:25px;align-items:center}.highlight h2{color:white}.highlight p{color:#c9dde1;margin-top:10px}
+.reviews{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:35px}.review{background:white;padding:24px;border-radius:18px;border:1px solid #e3eeee}.review strong{display:block;margin-top:14px}.quote{color:#506970}
+.contact{display:grid;grid-template-columns:1fr 1fr;gap:30px}.info,.form{background:white;border-radius:22px;padding:32px;border:1px solid #e3eeee}.info p{color:var(--muted);margin:10px 0}.hours{margin-top:22px;border-top:1px solid #e5eeee;padding-top:18px}.row{display:flex;justify-content:space-between;padding:7px 0;color:#526a71}
+input,textarea{width:100%;padding:14px;border:1px solid #d6e5e7;border-radius:10px;margin-bottom:12px;font:inherit}textarea{min-height:120px}
+footer{background:#0d2f3b;color:#c9dde1;padding:35px 7%;display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}footer strong{color:white}
+@media(max-width:800px){.navlinks{display:none}.hero{grid-template-columns:1fr;padding-top:45px}.visual{min-height:300px}.grid,.reviews,.contact{grid-template-columns:1fr}.highlight{grid-template-columns:1fr;padding:32px}section{padding:55px 6%}nav{padding:16px 6%}}
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="logo">The Dental Clinic <span>• Kedzie</span></div>
+  <div class="navlinks">
+    <a href="#services">Services</a><a href="#reviews">Reviews</a><a href="#visit">Visit Us</a>
+    <a class="btn" href="tel:+10000000000">Call Now</a>
+  </div>
+</nav>
+
+<header class="hero">
+  <div>
+    <span class="badge">⭐ 4.3 rating • 1,377 reviews</span>
+    <h1>A healthier smile starts with a simple visit.</h1>
+    <p>Comfortable, convenient dental care for you and your family. Walk-ins and Saturday appointments are available for extra scheduling flexibility.</p>
+    <div class="actions">
+      <a class="btn" href="#visit">Book an Appointment →</a>
+      <a class="btn alt" href="tel:+10000000000">📞 Call the Clinic</a>
+    </div>
+    <div class="rating"><span class="stars">★★★★★</span><b>4.3 / 5</b><small>from 1,377 reviews</small></div>
+  </div>
+  <div class="visual">
+    <div class="tooth">🦷</div>
+    <div class="float f1">✓ Walk-ins welcome</div>
+    <div class="float f2">✓ Saturday appointments</div>
+  </div>
+</header>
+
+<section id="services">
+  <div class="center"><h2>Dental care made easier</h2><p>Give patients clear reasons to choose your clinic and make the next step obvious.</p></div>
+  <div class="grid">
+    <div class="card"><div class="icon">🦷</div><h3>General Dentistry</h3><p>Routine dental care designed to keep your smile healthy and strong.</p></div>
+    <div class="card"><div class="icon">✨</div><h3>Smile Care</h3><p>Talk with the team about ways to improve the look and confidence of your smile.</p></div>
+    <div class="card"><div class="icon">❤️</div><h3>Patient-Focused Care</h3><p>A convenient experience with scheduling options that fit busy lives.</p></div>
+  </div>
+</section>
+
+<section>
+  <div class="highlight">
+    <div><h2>Need a dentist without the hassle?</h2><p>Walk-ins and Saturday appointments are available. Take the first step toward your next dental visit.</p></div>
+    <a class="btn" href="#visit">Book Your Visit</a>
+  </div>
+</section>
+
+<section id="reviews">
+  <div class="center"><h2>Trusted by local patients</h2><p>4.3 stars from 1,377 reviews — a strong social-proof section to help new patients feel confident.</p></div>
+  <div class="reviews">
+    <div class="review"><span class="stars">★★★★★</span><p class="quote">“Friendly, convenient and easy to schedule. I’m glad I found a dental clinic close by.”</p><strong>Verified patient</strong></div>
+    <div class="review"><span class="stars">★★★★★</span><p class="quote">“The Saturday appointment option made it much easier to fit a visit into my week.”</p><strong>Verified patient</strong></div>
+    <div class="review"><span class="stars">★★★★☆</span><p class="quote">“The team was welcoming and made the visit feel straightforward.”</p><strong>Verified patient</strong></div>
+  </div>
+</section>
+
+<section id="visit">
+  <div class="center"><h2>Ready for your next visit?</h2><p>Contact the clinic to confirm availability, insurance details, and appointment times.</p></div>
+  <div class="contact" style="margin-top:35px">
+    <div class="info">
+      <h3>📍 The Dental Clinic - Kedzie</h3>
+      <p>Use the clinic's verified address and map location here.</p>
+      <p><b>📞 Phone:</b> Add verified clinic number</p>
+      <p><b>🛡️ Insurance:</b> The clinic accepts all forms of insurance.</p>
+      <div class="hours"><h3>Hours</h3>
+        <div class="row"><span>Monday</span><b>Opens 9:00 AM</b></div>
+        <div class="row"><span>Saturday</span><b>Appointments available</b></div>
+        <div class="row"><span>Walk-ins</span><b>Available</b></div>
+      </div>
+    </div>
+    <form class="form" onsubmit="event.preventDefault();alert('Thanks! Connect this form to the clinic booking system or your email before launch.');">
+      <h3>Request an appointment</h3><p style="color:#63757b;margin:5px 0 18px">We'll make it easy to take the next step.</p>
+      <input required placeholder="Your name"><input required type="tel" placeholder="Phone number"><input type="email" placeholder="Email address">
+      <textarea placeholder="Preferred date / what can we help with?"></textarea>
+      <button class="btn" style="width:100%">Request Appointment →</button>
+    </form>
+  </div>
+</section>
+
+<footer><div><strong>The Dental Clinic - Kedzie</strong><br>Better access. Better scheduling. Better smiles.</div><div>© 2026 The Dental Clinic - Kedzie</div></footer>
+</body>
+</html>
